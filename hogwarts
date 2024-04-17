@@ -1,0 +1,8 @@
+students = ["Hermione", "Harry", "Ron", "Draco"]
+houses = ["Gryffindor", "Gryffindor", "Gryffindor", "Slizeren"]
+
+students = dict(zip(students, houses))
+
+
+for student in students:
+    print(student, students[student], sep=" ")
